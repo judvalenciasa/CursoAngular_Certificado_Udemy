@@ -1,0 +1,15 @@
+<button (click)="onClick($event)"> pulsa </button>
+
+<select (change)="onChange($event)">
+    <option value="uno">uno </option>
+    <option value="dos">dos </option>
+    <option value="tres">tres </option>
+</select>
+
+<div class="cuadrado" (mouseenter)="onMouseEnter()" (mouseout)="mouseOut()">
+    {{mensaje}}
+</div>
+
+
+<input type="text" (change)="onChangeInput($event)" (input)="onInput($event)" 
+(focus)="onFocus()" (blur)="onBlur()">

@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="izquierda">
+        <app-formulario-to-do (tareaCreada)="onTareaCreada($event)"></app-formulario-to-do>
+    </div>
+    <div class="derecha">
+        <app-lista-to-do [tareas]="arrayTarea"></app-lista-to-do>
+    </div>
+</div>
+

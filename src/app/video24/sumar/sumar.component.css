@@ -1,0 +1,18 @@
+.contenedor {
+    background-color: gainsboro;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: center;
+    border: 1px solid black;
+}
+
+.contenedor div {
+    margin: 20%
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

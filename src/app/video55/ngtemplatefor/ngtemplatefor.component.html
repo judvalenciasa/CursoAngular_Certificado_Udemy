@@ -1,0 +1,32 @@
+<ul>
+    <li *ngFor="let persona of personas">
+        {{persona.nombre}} {{persona.apellidos}}   {{persona.edad}} 
+    </li>
+</ul>
+
+
+<div class="personas">
+    <div class="persona" *ngFor="let person of personas">
+        <h3>{{person.nombre}}</h3>
+        <p>{{person.apellidos}}</p>
+        <p>{{person.edad}}</p>    
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pers of personas">
+            <td>{{pers.nombre}}</td>
+            <td>{{pers.apellidos}}</td>
+            <td>{{pers.edad}}</td>
+        </tr>
+    </tbody>
+</table>
+<button></button>

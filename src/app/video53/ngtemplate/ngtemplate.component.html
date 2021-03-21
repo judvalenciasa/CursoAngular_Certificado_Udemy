@@ -1,0 +1,22 @@
+<p *ngIf="mostrar">
+    Contenido del parrafo
+</p>
+<button (click)="onClickMostrar()">Mostrar</button>
+
+<h2>then y else del ngIf</h2>
+<p *ngIf="mostrar2;then mainBlock else elseBlock"> Contenido del segundo parrafo</p>
+<ng-template #mainBlock>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione, dicta quidem cum suscipit a provident
+        facilis ullam perspiciatis modi amet ipsam id quam, cumque atque, velit autem nisi ipsa?</p>
+</ng-template>
+<ng-template #elseBlock>
+    <p>segunda opcion</p>
+</ng-template>
+<button (click)="onClickMostrar2()">Mostrar2/ocultar</button>
+
+<h2>Contenido 3er ejemplo mismo ejemplo de diferente manera</h2>
+<p *ngIf="mostrar">Contenido del 3er parrafo</p>
+<p *ngIf="!mostrar">Contenido del 3er ejemplo 2 parrafo</p>
+<button (click)="onClickMostrar()"> Mostrar/ Ocultar</button>
+
+

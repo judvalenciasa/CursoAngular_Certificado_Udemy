@@ -1,0 +1,23 @@
+<h2>Aqui observamos la ngStyle</h2>
+<p [ngStyle]="propiedadesParrafo">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur cumque at aut architecto vero vitae repellat
+    incidunt mollitia, laudantium veniam expedita voluptatibus iure totam. Ipsam autem numquam deleniti eligendi.
+</p>
+<div>
+    <button (click)="cambiarColor('v')">Verde</button>
+    <button (click)="cambiarColor('r')">Rojo</button>
+    <button (click)="cambiarColor('a')">Amarillo</button>
+</div>
+
+<h2> Usando el ngModel</h2>
+<div>
+    <input type="text" [(ngModel)]="propiedadesParrafo.color">
+</div>
+
+<h2> input de tipo range</h2>
+<div>
+    <input type="range" min="12" max="200" step="2" (change)="onInput($event)">
+</div>
+
+<app-semaforo></app-semaforo>
+
