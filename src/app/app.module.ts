@@ -41,6 +41,7 @@ import { ComandosComponent } from './video61/comandos/comandos.component';
 import { ComprasPaPaComponent } from './video68/compras-pa-pa/compras-pa-pa.component';
 import { FormularioComprasComponent } from './video68/formulario-compras/formulario-compras.component';
 import { ListaProductosComprasComponent } from './video68/lista-productos-compras/lista-productos-compras.component';
+import { RoutingPadreComponent } from './video69/routing-padre/routing-padre.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { ListaProductosComprasComponent } from './video68/lista-productos-compra
     ComandosComponent,
     ComprasPaPaComponent,
     FormularioComprasComponent,
-    ListaProductosComprasComponent
+    ListaProductosComprasComponent,
+    RoutingPadreComponent
   ],
   imports: [
     BrowserModule,

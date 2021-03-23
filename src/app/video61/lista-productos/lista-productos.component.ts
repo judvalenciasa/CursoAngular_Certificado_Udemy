@@ -24,6 +24,4 @@ export class ListaProductosComponent implements OnInit {
     this.productoSeleccionado.emit(pProducto);
   }
 
-
-
 }

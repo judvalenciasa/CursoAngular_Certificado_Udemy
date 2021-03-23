@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Producto } from '../modelos/producto.modelo';
 
 @Component({
   selector: 'app-lista-productos-compras',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaProductosComprasComponent implements OnInit {
 
-  constructor() { }
+  @Input() productos:Producto[];
+  @Output() productoSeleccionado:EventEmitter<number>;
+  @Input() textoBoton:string;
+
+  constructor() {
+    this.productoSeleccionado = new EventEmitter();
+   }
 
   ngOnInit(): void {
+    
+  }
+
+  onClick(indice){
+    this.productoSeleccionado.emit(indice);
   }
 
 }
