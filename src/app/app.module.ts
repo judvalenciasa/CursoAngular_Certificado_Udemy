@@ -42,6 +42,21 @@ import { ComprasPaPaComponent } from './video68/compras-pa-pa/compras-pa-pa.comp
 import { FormularioComprasComponent } from './video68/formulario-compras/formulario-compras.component';
 import { ListaProductosComprasComponent } from './video68/lista-productos-compras/lista-productos-compras.component';
 import { RoutingPadreComponent } from './video69/routing-padre/routing-padre.component';
+import { InfoComponent } from './video69/info/info.component';
+import { AboutComponent } from './video69/about/about.component';
+import { PapaRutasComponent } from './video73/papa-rutas/papa-rutas.component';
+import { AcercaRutaComponent } from './video73/acerca-ruta/acerca-ruta.component';
+import { ContactanosRutasComponent } from './video73/contactanos-rutas/contactanos-rutas.component';
+import { PapaRutaDinamicaComponent } from './video75/papa-ruta-dinamica/papa-ruta-dinamica.component';
+import { ContactanosRutaDinamicaComponent } from './video75/contactanos-ruta-dinamica/contactanos-ruta-dinamica.component';
+import { AcercaRutaDinamicaComponent } from './video75/acerca-ruta-dinamica/acerca-ruta-dinamica.component';
+import { DetalleEmpleadoComponent } from './video75/detalle-empleado/detalle-empleado.component';
+import { ProyectosComponent } from './video75/empleados/proyectos/proyectos.component';
+import { CurriculumComponent } from './video75/empleados/curriculum/curriculum.component';
+import { ExperienciaComponent } from './video75/empleados/experiencia/experiencia.component';
+import { GuardianPadreComponent } from './video77/guardian-padre/guardian-padre.component';
+import { GuardianHijoComponent } from './video77/guardian-hijo/guardian-hijo.component';
+import { GuardianHomeComponent } from './video77/guardian-home/guardian-home.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +97,22 @@ import { RoutingPadreComponent } from './video69/routing-padre/routing-padre.com
     ComprasPaPaComponent,
     FormularioComprasComponent,
     ListaProductosComprasComponent,
-    RoutingPadreComponent
+    RoutingPadreComponent,
+    InfoComponent,
+    AboutComponent,
+    PapaRutasComponent,
+    AcercaRutaComponent,
+    ContactanosRutasComponent,
+    PapaRutaDinamicaComponent,
+    ContactanosRutaDinamicaComponent,
+    AcercaRutaDinamicaComponent,
+    DetalleEmpleadoComponent,
+    ProyectosComponent,
+    CurriculumComponent,
+    ExperienciaComponent,
+    GuardianPadreComponent,
+    GuardianHijoComponent,
+    GuardianHomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,16 @@
+<h1>Cabecera</h1>
+<h2>Subtitulo de la pagina</h2>
+
+<div class="rutas">
+    <a [routerLink]="['/acerca1']" routerLinkActive="activa">Acerca de mi</a>
+    <a [routerLink]="['/informacion1']" routerLinkActive="activa">Informacion de la pagina</a>
+    <a [routerLink]="['/ ñe'] " routerLinkActive="activa">Home</a>
+</div>
+
+<div class="botones">
+    <button (click)="onClinck('informacion1')">Informacion de la pagina</button>
+    <button (click)="onClinck('acerca1')">Acerca de mi</button>
+    <button (click)="onClinck('--')">Home</button>
+</div>
+
+<h2>Rutas dinamicas</h2>
