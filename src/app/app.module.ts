@@ -57,6 +57,9 @@ import { ExperienciaComponent } from './video75/empleados/experiencia/experienci
 import { GuardianPadreComponent } from './video77/guardian-padre/guardian-padre.component';
 import { GuardianHijoComponent } from './video77/guardian-hijo/guardian-hijo.component';
 import { GuardianHomeComponent } from './video77/guardian-home/guardian-home.component';
+import { HomeServicioComponent } from './video79/home-servicio/home-servicio.component';
+import { SigletonHomeComponent } from './video80/sigleton-home/sigleton-home.component';
+import { ListaSigletonComponent } from './video80/lista-sigleton/lista-sigleton.component';
 
 @NgModule({
   declarations: [
@@ -112,7 +115,10 @@ import { GuardianHomeComponent } from './video77/guardian-home/guardian-home.com
     ExperienciaComponent,
     GuardianPadreComponent,
     GuardianHijoComponent,
-    GuardianHomeComponent
+    GuardianHomeComponent,
+    HomeServicioComponent,
+    SigletonHomeComponent,
+    ListaSigletonComponent
   ],
   imports: [
     BrowserModule,
